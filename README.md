@@ -1,8 +1,8 @@
-GPGScript
+# GPGScript
 
 GPGScript is a simple shell script that encrypts or decrypts files with GPG without using the terminal. To use the app, simply click on the script, and the GUI will launch, allowing you to select the file. The app automatically decides whether it needs to encrypt or decrypt the file. You will need to enter the password for encryption/decryption, and the app will encrypt or decrypt the file and show a notification if the action was successful or not. The GUI is based on Zenity, and the app depends on Zenity and GPG and runs on Ubuntu.
 
-Installation
+# Installation
 
 To install GPGScript, follow these steps:
 
@@ -15,7 +15,7 @@ Make the script executable by running the following command in the terminal:
 
     chmod +x gpgscript.sh
 
-Usage
+# Usage
 
 To use GPGScript, follow these steps:
 
@@ -36,11 +36,11 @@ The app automatically decides whether to encrypt or decrypt the file based on th
 
 Note that the app will not overwrite the files, so when encrypting/decrypting make sure there are no file with a similar filename in a destination directory.
 
-License
+# License
 
 This app is licensed under the MIT License.
 
-Acknowledgments
+# Acknowledgments
 
 Thank you to the following resources for their help in creating this app:
 
