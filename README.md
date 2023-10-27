@@ -6,29 +6,31 @@ Installation
 
 To install GPGScript, follow these steps:
 
-    Install Zenity and GPG by running the following command in the terminal:
+Install Zenity and GPG by running the following command in the terminal:
 
-     sudo apt-get install zenity gpg
+    sudo apt-get install zenity gpg
 
 Download the gpgscript.sh script from this repository.
 Make the script executable by running the following command in the terminal:
 
-chmod +x gpgscript.sh
+    chmod +x gpgscript.sh
 
 Usage
 
 To use GPGScript, follow these steps:
 
-    Click on the script icon or navigate to the directory where the gpgscript.sh script is located in terminal.
-    Run the script by typing the following command in the terminal:
+Click on the script icon or navigate to the directory where the gpgscript.sh script is located in terminal.
+Run the script by typing the following command in the terminal:
 
     ./gpgscript.sh
 
-    The Zenity GUI will appear with a file selection prompt. Select the file that you want to encrypt or decrypt and hit OK.
-    The script automatically decides if it has to encrypt or decrypt the file.
-    Enter the password for encryption/decryption in the password field (use strong passwords!)
-    Click the "OK" button to encrypt or decrypt the file.
-    The app will encrypt or decrypt the file (AES256 algorithm) and will show a notification if the action was successful or not.
+The Zenity GUI will appear with a file selection prompt. Select the file that you want to encrypt or decrypt and hit OK.
+The script automatically decides if it has to encrypt or decrypt the file.
+Enter the password for encryption/decryption in the password field (use strong passwords!)
+Click the "OK" button to encrypt or decrypt the file.
+The app will encrypt or decrypt the file (AES256 algorithm) and will show a notification if the action was successful or not.
+
+Notes
 
 The app automatically decides whether to encrypt or decrypt the file based on the output of the "file" command. If the output of the "file" command contains the string "GPG", the app will decrypt the file. Otherwise, the app will encrypt the file.
 
@@ -42,8 +44,8 @@ Acknowledgments
 
 Thank you to the following resources for their help in creating this app:
 
-    Zenity Documentation
-    GPG Documentation
-    Bash Guide for Beginners
+Zenity Documentation
+GPG Documentation
+Bash Guide for Beginners
 
 Feel free to contribute to this project by submitting pull requests or issues.
